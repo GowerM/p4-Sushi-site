@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  
+  <head>
+  
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Student Form</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <script src="js/vendor/modernizr.js"></script>
+  	
+  </head>
+  <body>
+   
+<!-- Header-->
+   <div class="row">
+  <div class="large-12 columns">
+<h1>Student Contact Form</h1>
+<p>Quick contact form for all your technical support questions.</p>
+  </div>
+</div>
+<!--End Header-->
+
+
+<!--Form-->
+<form data-abide>
+  <div class="row">
+    <div class="large-6 columns">
+      <label>Name
+        <input type="text" placeholder="Joe Schmoe" required />
+      
+      <small class="error">First and Last name</small></label>
+    </div>
+  
+  <div class="large-6 columns">
+      <label>Password
+        <input type="password" placeholder="Password" required />
+      <small class="error">Needs at least one capital</small>
+      </label>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-3 columns">
+      <label>Student Number
+        <input type="text" placeholder="00000000" required />
+      
+      <small class="error">Must have eight numbers and start with 00</small></label>
+    </div>
+    <div class="large-3 columns">
+      <label>Major
+        <input type="text" placeholder="VCD" />
+      </label>
+      
+    </div>
+    <div class="large-3 columns">
+      <label>Graduation Date
+        <input type="month" placeholder="June 2014" required />
+      
+      <small class="error">Month and year only</small></label>
+    </div>
+    <div class="large-3 columns">
+          <label>Email
+          <input type="email" placeholder="Janedoe@gmail.com" required />
+          <small class="error">Valid email</small></label>
+         </div>
+ </div>
+        <div class="row">
+    <div class="large-12 columns">
+      <label>Comments
+        <textarea placeholder="Any comments or feedback to make this form better?"></textarea>
+      </label>
+    </div>
+  
+        <button type="submit">Submit</button>
+ </div>
+      </div>
+    </div>
+  </div>
+</form>
+  <!--End Form-->
+
+  
+    
+    
+    
+  
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
