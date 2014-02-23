@@ -23,6 +23,33 @@ footer p {
 	padding: 10px;
 }
 
+/*=================
+	Fonts
+===================*/
+
+h3 {
+  font-family: 'Delius', cursive;
+  
+}
+
+
+li,
+a,
+p {
+  font-family: sans-serif;
+  font-size: .75em;
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  text-indent: 3em;
+}
+
+ul {
+  list-style: none;
+}
 
 
 /*=================
