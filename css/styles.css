@@ -11,11 +11,20 @@ footer {
 header {
 	border-bottom: 2px black solid;
 	margin-bottom: 20px;
+
+}
+
+header:after {
+  content : ".";
+  display : block;
+  height : 0;
+  clear : both;
+  visibility : hidden;
 }
 
 .logo {
 	width: 150px;
-	float: none;
+	float: left;
 }
 
 footer {
@@ -30,14 +39,24 @@ footer p {
 }
 
 nav {
+	margin-top: 3.5em;
+	margin-bottom: 0;
+	text-align: center;
+	float: left;
+}
 
+nav li {
+	display: inline;
+	margin: 0 2em 0 3em;
+	font-size: 1em;
 }
 
 
 /*=================
 	Fonts
 ===================*/
-
+h1,
+h2,
 h3 {
   font-family: 'Delius', cursive;
   
@@ -49,7 +68,6 @@ a,
 p {
   font-family: sans-serif;
   font-size: .75em;
-  
 }
 
 a {
@@ -69,20 +87,49 @@ ul {
 
 #spicy {
 	background: yellow;
+
 }
 
 #raw {
 	background: red;
+	color: white;
 }
 
 #veg {
 	background: green;
+	color: white;
 }
 
 img {
 	width: 200px;
 	float: left;
 }
+
+#panel1 {
+	font-color: white;
+}
+
+#bg1 {
+	background: #5D741A;
+	
+}
+
+#bg2 {
+	background: #AEBF24;
+}
+
+#bg3 {
+	background: #D87B23;
+}
+
+#bg4 {
+	background: #BD3D10;
+}
+
+#bg5 {
+	background: #8A2D0C;
+}
+
 
 
 /*=====================
@@ -91,4 +138,14 @@ img {
 
 #contact {
 	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#contact li {
+	font-size: 1.1255em;
+}
+
+#gmap {
+	height: 250px;
+	width: 450px;
 }
