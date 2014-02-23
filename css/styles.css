@@ -2,26 +2,37 @@
  Header and Footer
 ===================*/
 
+
 header,
 footer {
 	margin: 0 auto;
-	background: black;
-	width: 100%;
 }
 
-header h3 {
-	color: white;
-	padding: 10px;
+header {
+	border-bottom: 2px black solid;
+	margin-bottom: 20px;
+}
+
+.logo {
+	width: 150px;
+	float: none;
 }
 
 footer {
 	margin-top: 10px;
+	background: black;
+	width: 100%;
 }
 
 footer p {
 	color: white;
 	padding: 10px;
 }
+
+nav {
+
+}
+
 
 /*=================
 	Fonts
@@ -44,7 +55,7 @@ p {
 a {
   text-decoration: none;
   color: black;
-  text-indent: 3em;
+
 }
 
 ul {
@@ -70,4 +81,14 @@ ul {
 
 img {
 	width: 200px;
+	float: left;
+}
+
+
+/*=====================
+	Contact
+=======================*/
+
+#contact {
+	margin-top: 20px;
 }
