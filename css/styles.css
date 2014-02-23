@@ -63,9 +63,12 @@ h1,
 h2,
 h3 {
   font-family: 'Delius', cursive;
-  
 }
 
+
+h2 { 
+	border-bottom: 1px solid black;
+}
 
 li,
 a,
@@ -89,6 +92,10 @@ ul {
 	Accordion 
 ===================*/
 
+.content p {
+	font-size: 1.125em;
+}
+
 #spicy {
 	background: yellow;
 
@@ -108,11 +115,6 @@ img {
 	width: 200px;
 	float: left;
 }
-
- {
-	font-color: white;
-}
-
 
 #bg1,
 #bg2,
