@@ -1,0 +1,46 @@
+/*==================
+ Header and Footer
+===================*/
+
+header,
+footer {
+	margin: 0 auto;
+	background: black;
+	width: 100%;
+}
+
+header h3 {
+	color: white;
+	padding: 10px;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+footer p {
+	color: white;
+	padding: 10px;
+}
+
+
+
+/*=================
+	Accordion 
+===================*/
+
+#spicy {
+	background: yellow;
+}
+
+#raw {
+	background: red;
+}
+
+#veg {
+	background: green;
+}
+
+img {
+	width: 200px;
+}
